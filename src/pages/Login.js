@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     const action = await dispatch(logIn({ email, password }));
     if (logIn.fulfilled.match(action)) {
-      navigate("./");
+      navigate("/");
     } else {
       alert("enter correct crediantial");
     }

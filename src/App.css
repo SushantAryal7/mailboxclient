@@ -28,3 +28,12 @@
 .email-composer button:hover {
   background-color: #0056b3;
 }
+
+.logout {
+  color: red;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
